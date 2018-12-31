@@ -3,8 +3,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title> Sevilla huele a calentitos  ...  </title>
-		<link rel="stylesheet" href="css\normalize.css" type="text/css" media="screen">
-		<link rel="stylesheet" href="css\grid.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css\normalize.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="css\grid.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nunito"  type="text/css"/>
 		<style>
 			a:hover { color: red; }
 			img.resize { 
@@ -24,26 +25,37 @@
 		</style>
 	</head>
 	<body>
-		<img class="resize" src="img\DC.jpg" alt="Portada Doña Carmen	">
-		<ul class="nav">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Locations</a></li>
-			<li><a href="#">Contact</a></li>
-			<li class="last"><a href="#">About</a></li>		
-		</ul>
-		<div class="intro">
-			<h1>Los mejores calentitos de sevilla</h1>
-			<p><a href="#">Ven a probarlos ...</a></p>
-			<p>También puedes probar nuestra excelente cocina casera</p>
-			<img src="img\DC-Board.jpg" alt="Cocina Casera">
-		</div>
-		<div class="new">
-			<h2>Recien salidos del fogón</h2>
-			<p>Llevamos 25 a&ntilde;os amasando los mejores calentitos de Sevilla para ti, si pasas por Sevilla no te los puedes perder ...</p>
-		</div>
-
-		<div class="contact"><p>Llamanos: <span>955-67-31-29</span><br>
-			Email: <a href="#">webmaster@donacarmen.es</a></p></div>
-		<div class="copyright"><p>&copy; 2000 Dona Carmen Calentitos todos los derechos reservados </p></div>
+		<div class="container clearfix">
+			<div class="grid_4">
+				<img class="resize" src="img\DC.jpg" alt="Portada Doña Carmen	">
+			</div>
+			<div class="grid_8 omega">
+				<ul class="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Locations</a></li>
+					<li><a href="#">Contact</a></li>
+					<li class="last"><a href="#">About</a></li>		
+				</ul>
+			</div>
+			<div class="intro grid_9 omega">
+				<h1>Los mejores calentitos de sevilla</h1>
+				<p><a href="#">Ven a probarlos ...</a></p>
+				<p>También puedes probar nuestra excelente cocina casera</p>
+				<img src="img\DC-Board.jpg" alt="Cocina Casera">
+			</div>
+			<div class="grid_7">
+				<div class="new">
+					<h2>Recien salidos del fogón</h2>
+					<p>Llevamos 25 a&ntilde;os amasando los mejores calentitos de Sevilla para ti, si pasas por Sevilla no te los puedes perder ...</p>
+				</div>
+			</div>
+			<div class="grid_5">
+				<div class="contact"><p>Llamanos: <span>955-67-31-29</span><br>
+					Email: <a href="#">webmaster@donacarmen.es</a></p></div>
+			<div class="grid_12">
+				<div class="copyright"><p>&copy; 2000 Dona Carmen Calentitos todos los derechos reservados </p></div>
+			</div>
+			</div>
+	</div>
 	</body>
 </html>
